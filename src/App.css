@@ -1,0 +1,39 @@
+.App {
+  padding: 5%;
+}
+
+.meessage {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+}
+.message__user{
+  margin-left: auto;
+  color: white;
+  text-align: right;
+}
+.message__userCard{
+  background-color: #0b81ff;
+}
+.message__guestCard{
+  background-color: #e9e9eb;
+}
+.app-form{
+  padding: 20px;
+  position: fixed;
+  background: #e9e9eb;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  margin: 20px;
+}
+.app__formControl{
+  display: flex;
+  flex-direction: row;
+}
+.app__iconButton{
+  flex: 0;
+}
+.app__input{
+  flex: 1;
+}
